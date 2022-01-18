@@ -4,14 +4,17 @@
 }
 
 body{
-    background-color: antiquewhite;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 500;
-    font-size: 1.2em;
+    
 }
 
 h1, h2, h3{
     font-family: 'Roboto Condensed', sans-serif;
+}
+
+p, span{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 1.2em;
 }
 
 .personalCV-content{
@@ -22,7 +25,7 @@ h1, h2, h3{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgba(99, 211, 211, 0.822);
+    background-color: #3a96c7;
     padding: 0.65em 0;
     max-height: 175px;
 }
@@ -40,18 +43,58 @@ h1, h2, h3{
 }
 
 .personalCV-sidebarSection{
-   width: 30vw;
+   width: 25vw;
    padding: 1em;
 }
 
 .personalCV-bodySection{
-    width: 70vw;
+    width: 75vw;
     background-color: #fff;
     padding: 2.5em;
 }
 
+.personalCV-sidebarSection{
+    color: #eee;
+    background-color: #343752;
+}
+
+.jobExperience-title{
+    display: flex;
+    align-items: center;
+}
+
+.jobExperience-title h2{
+    order: 1;
+    margin-left: 1rem;
+}
+
 .job-box{
     margin: 1rem 0;
-    padding: 2em 0;
+    padding: 1em 0;
     border-bottom: 2px solid;
+}
+
+.job-box p{
+    margin: 0.85em 0;
+}
+
+.job-box span{
+    font-weight: 700;
+}
+
+.sidebar-skills h2{
+    margin: 1rem;
+}
+
+.sidebar-skills ul{
+    list-style: none;
+}
+
+.sidebar-skills li{
+    display: flex;
+    align-items: center;
+}
+
+.sidebar-skills li span{
+    margin: 1rem;
 }
