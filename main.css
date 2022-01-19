@@ -14,7 +14,7 @@ h1, h2, h3{
 p, span{
     font-family: 'Open Sans', sans-serif;
     font-weight: 500;
-    font-size: 1.2em;
+    font-size: 1.15em;
 }
 
 .personalCV-content{
@@ -44,7 +44,7 @@ p, span{
 
 .personalCV-sidebarSection{
    width: 25vw;
-   padding: 1em;
+   padding: 2em 1.5em;
 }
 
 .personalCV-bodySection{
@@ -79,11 +79,11 @@ p, span{
 }
 
 .job-box span{
-    font-weight: 700;
+    font-weight: 600;
 }
 
-.sidebar-skills h2{
-    margin: 1rem;
+.sidebar-skills h2, .sidebar-contact h2, .personalCV-sidebarSection h2{
+    margin: 1rem 0;
 }
 
 .sidebar-skills ul{
@@ -96,5 +96,14 @@ p, span{
 }
 
 .sidebar-skills li span{
-    margin: 1rem;
+    margin: 1rem 0.55rem 1rem 0;
+}
+
+.social-links{
+    margin-right: 15px;
+}
+
+.footer{
+    min-height: 100px;
+    background-color: #111;
 }
